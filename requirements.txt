@@ -12,7 +12,7 @@ gitdb2==2.0.5             # via gitpython
 gitpython==2.1.11
 idna==2.8                 # via requests
 pathtools==0.1.2          # via watchdog
-pyyaml==3.13
+pyyaml==5.1
 requests==2.21.0
 smmap2==2.0.5             # via gitdb2
 urllib3==1.24.1           # via requests
