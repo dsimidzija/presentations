@@ -15,5 +15,5 @@ pathtools==0.1.2          # via watchdog
 pyyaml==3.13
 requests==2.21.0
 smmap2==2.0.5             # via gitdb2
-urllib3==1.24.1           # via requests
+urllib3==1.24.2           # via requests
 watchdog==0.9.0
