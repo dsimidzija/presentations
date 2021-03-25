@@ -4,16 +4,31 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-argh==0.26.2              # via watchdog
-certifi==2018.11.29       # via requests
-chardet==3.0.4            # via requests
+argh==0.26.2
+    # via watchdog
+certifi==2018.11.29
+    # via requests
+chardet==3.0.4
+    # via requests
 click==7.0
-gitdb2==2.0.5             # via gitpython
+    # via -r requirements.in
+gitdb2==2.0.5
+    # via gitpython
 gitpython==2.1.11
-idna==2.8                 # via requests
-pathtools==0.1.2          # via watchdog
-pyyaml==3.13
+    # via -r requirements.in
+idna==2.8
+    # via requests
+pathtools==0.1.2
+    # via watchdog
+pyyaml==5.4
+    # via
+    #   -r requirements.in
+    #   watchdog
 requests==2.21.0
-smmap2==2.0.5             # via gitdb2
-urllib3==1.24.1           # via requests
+    # via -r requirements.in
+smmap2==2.0.5
+    # via gitdb2
+urllib3==1.24.1
+    # via requests
 watchdog==0.9.0
+    # via -r requirements.in
