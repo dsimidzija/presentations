@@ -1,6 +1,8 @@
 ---
 slideOptions:
   transition: slide
+  spotlight:
+    enabled: false
 ---
 
 # REGEX FOR BEGINNERS
@@ -782,6 +784,45 @@ $                     *at least* 8 times
 {8,}
 $               <- end of string
 ```
+
+---
+
+### Finite State Machines
+
+* Every regular expression is a finite state machine!
+
+----
+
+<!-- .slide: data-transition="none" data-transition-speed="fast" -->
+
+```plaintext
+\.(jpe?g)|(png)
+```
+
+![state-machine-images](https://github.com/dsimidzija/presentations/raw/master/assets/images/state-machine-images.png)
+
+----
+
+<!-- .slide: data-transition="none" data-transition-speed="fast" -->
+
+```plaintext
+^(a|b)c*d+$
+```
+
+![state-machine2](https://github.com/dsimidzija/presentations/raw/master/assets/images/state-machine2.png)
+
+----
+
+<!-- .slide: data-transition="none" data-transition-speed="fast" -->
+
+### FSM graph for:
+
+```plaintext
+\bdr[iau]nk\b
+```
+
+
+# ?
 
 ---
 
